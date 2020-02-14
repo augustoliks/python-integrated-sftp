@@ -4,4 +4,4 @@ COPY ./python-client-sftp /app
 WORKDIR /app
 RUN pip3.7 install -r requirements.txt
 VOLUME [ "/data" ]
-ENTRYPOINT [ "python3", "app.py" ]
+CMD [ "python3", "app.py" ]
