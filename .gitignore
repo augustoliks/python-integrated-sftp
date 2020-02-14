@@ -1,0 +1,8 @@
+.venv/
+.idea/
+__pypackages__/
+__pycache__/
+*.py[cod]
+*$py.class
+__tmp/
+*.log
